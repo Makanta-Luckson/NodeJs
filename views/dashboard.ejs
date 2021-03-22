@@ -1,0 +1,15 @@
+<html lang="en">
+<%- include('./partials/head.ejs') %> 
+<body>
+    <div class="container">
+        <h1>Welcome <%= name  %> </h1>
+        <%- include('./partials/msg.ejs'); %> 
+
+
+      <a href="/user/logout" class="btn">Logout</a>
+    </div>
+        
+
+    <br><br>
+<%- include('./partials/footer.ejs') %> 
+</html>
